@@ -11,4 +11,5 @@ void dfs(int i) {
   }
   maior_caminho = max(maior_caminho,count);
   count--;
+  visitei[i] = 0;
 }
